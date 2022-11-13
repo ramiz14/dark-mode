@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;   
+    transition: .5s;
+}
+input{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#btn{
+    position: absolute;
+    left: 56%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+span{
+    background-color: white;
+    position: absolute;
+    left: 49%;
+    top: 52%;
+    transform: translate(-50%,-50%);
+}
